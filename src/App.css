@@ -1,0 +1,31 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .notification {
+    border: 1px solid #867878;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .notification button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #0d7779;
+    color: white;
+    border: #0d7779;
+  }
+  
+  .notification-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
